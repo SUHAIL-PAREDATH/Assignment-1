@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          function lagest(){
+            const array = [40, 100, 1, 5, 25, 10];
+            document.write(array)
+            array.sort(function(a,b){return b-a});
+            document.write("<br>"+"max value:"+array[0])
+
+        }
+        lagest()
+        function min(){
+            const array = [40, 100, 1, 5, 25, 10];
+            array.sort(function(a,b){return a-b});
+            document.write("<br>"+"min value:"+array[0])
+
+        }
+        min()
+    </script>
+</body>
+</html>
